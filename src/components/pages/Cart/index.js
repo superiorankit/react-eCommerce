@@ -10,6 +10,8 @@ import { useSelector } from 'react-redux';
 
 const Cart = () => {
 
+  localStorage.setItem('activeTab',JSON.stringify("cart"));
+
   let tprice=0,discount=0,tmrp=0;
 
   const {cart} = useSelector(state=>state.userReducer);
