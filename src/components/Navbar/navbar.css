@@ -1,0 +1,133 @@
+navbar{
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    background-color: white;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navTop{
+    display: flex;
+    /* width: 100%; */
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navTop h1{
+    font-weight: bold;
+    color: #737373;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.navTop .items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 31px;
+}
+
+.navBott{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 7px;
+}
+
+
+.navBott input{
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #9b9494;
+    padding: 8px 10px;
+    width: 50%;
+    margin-right: 17px;
+}
+
+.navItems{
+    display: flex;
+    width: 33%;
+    justify-content: space-between;
+    font-family: "Roboto Slab", serif;
+}
+
+
+.navItems h1{
+    font-weight: bold;
+    color: #737373;
+}
+
+.navBott .items{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items a{
+    font-size: 17px !important;
+    color: #4e4e4e !important;
+    font-weight: 400 !important;
+    border-radius: 28px;
+    font-family: "Roboto Slab", serif;
+}
+
+/* .items a:hover{
+    background-color: #f3f3f3;
+} */
+
+.userItem{
+    display: flex;
+    width: 33%;
+    justify-content: space-between;
+    font-family: "Roboto Slab", serif;
+}
+
+
+.userBox{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(36, 36, 36);
+}
+
+.userBox:hover{
+    cursor: pointer;
+}
+
+/* .userIcon{
+
+} */
+
+.userBox p{
+margin-bottom: 0 !important;
+font-size: 12px;
+
+}
+
+.cartLength{
+    position: absolute;
+    top: -5px;
+    right: 8px;
+    background-color: #3b3b3b;
+    color: white;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 11px;
+}
+

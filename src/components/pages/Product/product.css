@@ -1,0 +1,27 @@
+.productMain{
+    padding-top: 73px;
+}
+
+.length{
+    width: fit-content;
+    font-weight: 500;
+    font-size: 16px;
+    color: #c7bdbd;
+    margin: 0px auto;
+}
+
+.productBox{
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+    grid-gap: 20px 0;
+}
+
+
+
+.loadDiv{
+    width: 100%;
+    height: 100vh;
+    
+}

@@ -1,0 +1,610 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .emptyCart{
+    width: 100%;
+    height: 100vh;
+  }
+
+  .firstbox{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-top:20px;
+  }
+
+  .addressbox{
+    border-radius: 4px;
+    box-shadow: 0px 0px 7px -7px black;
+    width:100%;
+    display: flex;
+    border: 1px solid rgb(231, 230, 230) ;
+    margin: 5px 0px;
+    padding: 22px;
+  }
+
+
+
+  .address{
+    width:60%;
+    margin-right: 10px;    
+  }
+
+  .address > :nth-child(1)
+  {
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .address > :nth-child(2)
+  {
+    font-weight: 300;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .addchangeadress{
+
+    display: flex;
+    align-items: center;
+    color: #484848;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px solid #896363;
+    padding:5px 10px;
+    margin-left: auto;
+  }
+
+  .offer{
+    border-radius: 4px;
+    box-shadow: 0px 0px 7px -7px black;
+    width:100%;
+    border: 1px solid rgb(230, 230, 230) ;
+    margin: 5px 0px;
+    padding: 17px;
+
+  }
+
+  .offer > :nth-child(1)
+  {
+    display:flex;
+    align-items: flex-start;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .offer > :nth-child(1) span
+  {
+    font-size:18px;
+    margin-right:10px;
+  }
+
+  .offer > :nth-child(2)
+  {
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left:17px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .offer > :nth-child(3)
+  {
+    color:#484848;
+    display:flex;
+    align-items:center;
+    margin-top: 10px;
+    margin-left:19px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .offer > :nth-child(3) span{
+    margin-left: 3px;
+    font-size: 9px;
+  }
+
+  .itemselected{
+    width:100%;
+    display: flex;
+    margin: 5px 0px;
+    padding: 10px 10px;
+
+  }
+
+  .itemselected input{
+    width: 18px;
+    margin-right: 10px;
+  }
+
+  .itemselected p{
+    font-size: 15px;
+    text-align:center;
+    margin: 5px 0px;
+  }
+
+  .remmov{
+    display: flex;
+    margin-left: auto;
+
+  }
+
+  .remove, .move{
+    font-weight:600;
+    color: #484848;
+    font-size: 11px;
+    margin: 5px 0px;
+    padding-left: 27px;
+    display: flex;
+    align-items:center;
+  }
+
+  .remove{
+    border-right: 1px solid rgb(206,206,206);
+    padding-right: 27px;
+    color: #484848;
+    font-weight: 600;
+    font-size: 11px;
+    border-right:1px solid rgb(177, 177, 177);
+  }
+
+
+  .cartMain .wishlist{
+    box-shadow: 0px 0px 7px -8px black;
+    border-radius: 4px;
+    margin: 25px 0px;
+    padding: 17px 14px;
+    padding-bottom: 9px;
+    border: 1px solid rgb(230,230,230);
+    justify-content:space-between;
+    display: flex;
+  }
+
+  .cartMain .wishlist > p{
+    display: flex;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .cartMain .wishlist > p > span{
+    margin-right: 7px;
+    margin-top: -1px; 
+    font-size: 20px;
+  }
+
+  .cartMain .wishlist > span{
+    margin-top: 1px;
+    font-size: 13px;
+  }
+
+  .secbox{
+  width: 27%;
+    margin-left: 20px;
+    border-left:1px solid rgb(230, 230, 230);
+    padding-left: 19px;
+    padding-top: 15px;
+  }
+
+  .coupon > p{
+    margin-bottom:13px;
+    color: #484848;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  
+  .applyco{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .applyco > :nth-child(1){
+    font-weight: 600;
+    font-size: 14px;
+    display:flex;
+  }
+
+  .applyco > :nth-child(1) span{
+    margin-top: -3px;
+    font-size: 21px;
+    margin-right: 10px;
+  }
+
+  .applyco > :nth-child(2){
+    color: #484848;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: 1px solid #484848;
+    padding: 6px 15px;
+  }
+
+  .pricedet{
+    margin-top: 20px;
+    border-top: 1px solid rgb(230, 230, 230);
+    padding-top: 20px;
+  }
+
+  .pricedet > p{
+    font-weight: 600;
+    color: #484848;
+    font-size: 11px;
+    margin-bottom: 21px;
+  }
+
+  .faredetails{
+    color: #484848;
+    font-weight: 400;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size:13px;
+  }
+
+  .disc{
+    color: #aaa5a5;
+  }
+
+  .coup{
+    color: #90742e;
+
+  }
+
+
+
+  .knowmore{
+    color: #484848;
+    font-weight: bold;
+    margin-left:5px;
+  }
+
+  .finalmrp{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top:14px;
+    border-top: 1px solid rgb(230, 230, 230);
+
+  }
+
+
+  .pay{
+    border-radius: 5px;
+    margin-top: 20px;
+    padding:10px 0px;
+    display:flex;
+    width : 100%;
+    background-color: #484848;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    justify-content: space-around;
+
+  }
+
+
+  .pay:hover{
+    background-color:#484848;
+  }
+
+  .pay:active{
+    background-color:#484848;
+
+  }
+
+
+  .footer{
+    position:sticky;
+    bottom: 0px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    border: 1px solid rgb(230,230,230);
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    padding: 15px 0px;
+
+  }
+
+  .foticon{
+
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+
+  }
+
+  @media(max-width: 1024px)
+  {
+    .container{
+      flex-direction: column;
+    }
+
+    .firstbox{
+      width: 100%;
+      padding: 20px 5px 0px;
+    }
+
+    .addressbox{
+      padding: 8px;
+    }
+
+    .address > :nth-child(1)
+    {
+      font-size: 10px;
+      margin-bottom: 3px;
+    }
+
+    .address > :nth-child(2)
+    {
+      font-size: 8px;
+    }
+
+    .addchangeadress{
+      font-size: 9px;
+    }
+
+    .offer{
+      padding: 8px;
+    }
+
+    .offer > :nth-child(1)
+    {
+      font-size: 13px;
+    }
+
+    .offer > :nth-child(1) span
+    {
+      font-size: 15px;
+      margin-right: 5px;
+    }
+
+    .offer > :nth-child(2)
+    {
+      margin-top: 3px;
+      font-size: 9px;
+    }
+
+    .offer > :nth-child(3)
+    {
+      margin-top: 7px;
+      font-size: 12px;
+    }
+
+    .itemselected{
+      margin: 2px 0px;
+      padding: 5px;
+    }
+
+    .itemselected input {
+      width: 11px;
+      margin-right: 6px;
+    }
+
+    .itemselected p{
+      font-size: 10px;
+      margin: 5px 0px;
+    }
+
+    .remove{
+      font-size: 9px;
+      padding-right: 6px;
+    }
+
+    .move{
+      font-size: 9px;
+      margin: 5px 0px;
+      padding-left: 4px;
+    }
+
+    .secbox{
+      width: 100%;
+      margin-left: 0px;
+      padding: 10px;
+      padding-top: 15px;
+
+    }
+
+ 
+    .pay{
+      margin: 0 auto;
+      width: 50%;
+    }
+
+
+
+
+
+    .footer{
+      padding: 0px;
+      padding-bottom: 5px;
+      flex-direction: column;
+    }
+
+    .foticon{
+      width: 100%;
+      padding: 5px 0px;
+      justify-content: space-around;
+    }
+
+    .foticon img{
+      height: 1%;
+      width: 38px;
+    }
+
+    .footer a{
+      font-size: 13px;
+    }
+
+
+  }
+
+
+
+  @media (max-width: 378px ){
+
+    .container{
+      flex-direction: column;
+    }
+
+    .firstbox{
+      width: 100%;
+      padding: 20px 5px 0px;
+    }
+
+    .addressbox{
+      padding: 8px;
+    }
+
+    .address > :nth-child(1)
+    {
+      font-size: 10px;
+      margin-bottom: 3px;
+    }
+
+    .address > :nth-child(2)
+    {
+      font-size: 8px;
+    }
+
+    .addchangeadress{
+      font-size: 9px;
+    }
+
+    .offer{
+      padding: 8px;
+    }
+
+    .offer > :nth-child(1)
+    {
+      font-size: 13px;
+    }
+
+    .offer > :nth-child(1) span
+    {
+      font-size: 15px;
+      margin-right: 5px;
+    }
+
+    .offer > :nth-child(2)
+    {
+      margin-top: 3px;
+      font-size: 9px;
+    }
+
+    .offer > :nth-child(3)
+    {
+      margin-top: 7px;
+      font-size: 12px;
+    }
+
+    .itemselected{
+      margin: 2px 0px;
+      padding: 5px;
+    }
+
+    .itemselected input {
+      width: 11px;
+      margin-right: 6px;
+    }
+
+    .itemselected p{
+      font-size: 10px;
+      margin: 5px 0px;
+    }
+
+    .remove{
+      font-size: 9px;
+      padding-right: 6px;
+    }
+
+    .move{
+      font-size: 9px;
+      margin: 5px 0px;
+      padding-left: 4px;
+    }
+
+    .secbox{
+      width: 100%;
+      margin-left: 0px;
+      padding: 10px;
+      padding-top: 15px;
+
+    }
+
+    .coupon > p{
+      font-size: 10px;
+      margin-bottom: 8px;
+    }
+
+    .applyco > :nth-child(1){
+      font-size: 12px;
+    }
+
+    .applyco > :nth-child(1) span{
+      font-size: 19px;
+      margin-right: 5px;
+    }
+
+    .applyco > :nth-child(2){
+      font-size:11px;
+      padding: 4px 15px;
+    }
+
+    .pricedet{
+      margin-top: 10px;
+      padding-top: 14px;
+    }
+
+    .pricedet > p{
+      margin-bottom: 13px;
+    }
+
+    .faredetails{
+      padding: 0px 4px;
+      margin-bottom: 10px;
+      font-size: 11px;
+    }
+
+    .finalmrp{
+      padding-top: 10px;
+    }
+
+    .pay{
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+
+    .footer{
+      padding: 0px;
+      padding-bottom: 5px;
+      flex-direction: column;
+    }
+
+    .foticon{
+      width: 100%;
+      padding: 5px 0px;
+    }
+
+    .foticon img{
+      height: 10%;
+      width: 10%;
+    }
+
+    .footer a{
+      font-size: 13px;
+    }
+}

@@ -1,0 +1,19 @@
+.aboutContent {
+    padding: 10px;
+    background-color: #5a175e59;
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 50%;
+}
+
+.aboutContent h2 {
+    color: #850f8d;
+    margin-bottom: 20px;
+    margin: auto;
+    width: fit-content;
+}
+
+.aboutContent p {
+    color: #666;
+    line-height: 1.6;
+}

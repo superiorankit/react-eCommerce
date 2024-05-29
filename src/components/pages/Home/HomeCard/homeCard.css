@@ -1,0 +1,10 @@
+.homeCard{
+    width: 40%;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.homeCard:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,15 @@
+.contactMain{
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox{
+    width: 80%;
+    background-color: rgb(232, 232, 232);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}

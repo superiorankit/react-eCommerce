@@ -1,0 +1,8 @@
+  .partnerLogo {
+    max-width: 150px;
+    transition: transform 0.3s;
+  }
+  
+  .partnerLogo:hover {
+    transform: scale(1.1);
+  }
